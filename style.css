@@ -122,6 +122,9 @@ body{
 	{
 		transform: scale(0.8);
 	}
+	.item1 {
+		background-position-x: 18rem;
+	} 
 }
 @media only screen and (max-width: 800px)
 {
@@ -129,6 +132,9 @@ body{
 	{
 		transform: scale(0.7);
 	}
+	.item1 {
+		background-position-x: 20rem;
+	} 
 }
 
 @media only screen and (max-width: 600px)
@@ -136,9 +142,9 @@ body{
     .container{
         width: 80%;
     }
-	/* .item1 {
-		background-position-x: 10rem;
-	} */
+	.item1 {
+		background-position-x: 15rem;
+	} 
 	.cards
 	{
 		display: flex; 
